@@ -5,20 +5,12 @@
       "PackagePath": "staticwebassets/ShopSite.bundle.scp.css"
     },
     {
+      "Id": "/Users/jonanleu/repos/Taco/ShopSite/ShopSite/wwwroot/RiosLogo.jpg",
+      "PackagePath": "staticwebassets/RiosLogo.jpg"
+    },
+    {
       "Id": "/Users/jonanleu/repos/Taco/ShopSite/ShopSite/wwwroot/app.css",
       "PackagePath": "staticwebassets/app.css"
-    },
-    {
-      "Id": "/Users/jonanleu/repos/Taco/ShopSite/ShopSite/wwwroot/bootstrap/bootstrap.min.css",
-      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css"
-    },
-    {
-      "Id": "/Users/jonanleu/repos/Taco/ShopSite/ShopSite/wwwroot/bootstrap/bootstrap.min.css.map",
-      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css.map"
-    },
-    {
-      "Id": "/Users/jonanleu/repos/Taco/ShopSite/ShopSite/wwwroot/favicon.png",
-      "PackagePath": "staticwebassets/favicon.png"
     },
     {
       "Id": "obj/Debug/net8.0/staticwebassets/msbuild.ShopSite.Microsoft.AspNetCore.StaticWebAssets.props",
