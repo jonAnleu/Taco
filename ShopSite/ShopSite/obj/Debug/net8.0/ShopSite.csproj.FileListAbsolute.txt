@@ -20,7 +20,6 @@
 /Users/jonanleu/repos/Taco/ShopSite/ShopSite/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.ShopSite.props
 /Users/jonanleu/repos/Taco/ShopSite/ShopSite/obj/Debug/net8.0/staticwebassets.pack.json
 /Users/jonanleu/repos/Taco/ShopSite/ShopSite/obj/Debug/net8.0/scopedcss/Components/Layout/MainLayout.razor.rz.scp.css
-/Users/jonanleu/repos/Taco/ShopSite/ShopSite/obj/Debug/net8.0/scopedcss/Components/Layout/NavMenu.razor.rz.scp.css
 /Users/jonanleu/repos/Taco/ShopSite/ShopSite/obj/Debug/net8.0/scopedcss/bundle/ShopSite.styles.css
 /Users/jonanleu/repos/Taco/ShopSite/ShopSite/obj/Debug/net8.0/scopedcss/projectbundle/ShopSite.bundle.scp.css
 /Users/jonanleu/repos/Taco/ShopSite/ShopSite/obj/Debug/net8.0/ShopSite.dll
