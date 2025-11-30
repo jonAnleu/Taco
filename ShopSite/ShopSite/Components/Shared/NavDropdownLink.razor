@@ -1,0 +1,9 @@
+<MudStack Row="true" AlignItems="AlignItems.Center" Spacing="1">
+    <MudText Color="Color.Dark" Typo="Typo.h6">@Label</MudText>
+    <MudIcon Icon="@Icons.Material.Filled.KeyboardArrowDown" Color="Color.Dark"/> 
+</MudStack>
+
+
+@code {
+    [Parameter] public required string Label { get; set; }
+}

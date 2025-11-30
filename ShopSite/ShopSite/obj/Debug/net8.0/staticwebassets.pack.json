@@ -9,8 +9,8 @@
       "PackagePath": "staticwebassets/app.css"
     },
     {
-      "Id": "/Users/jonanleu/repos/Taco/ShopSite/ShopSite/wwwroot/images/RiosLogo.jpg",
-      "PackagePath": "staticwebassets/images/RiosLogo.jpg"
+      "Id": "/Users/jonanleu/repos/Taco/ShopSite/ShopSite/wwwroot/images/logo.jpeg",
+      "PackagePath": "staticwebassets/images/logo.jpeg"
     },
     {
       "Id": "obj/Debug/net8.0/staticwebassets/msbuild.ShopSite.Microsoft.AspNetCore.StaticWebAssets.props",

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wZm18oEnhGtgnOrKQDuKZQDUXe3wyAEEy/K1b5XZCi0=",
+  "Hash": "sYd1gNIQUiVeOTvBrht2rqkNxjGThJS2rrzuRLLBW2Q=",
   "Source": "ShopSite",
   "BasePath": "_content/ShopSite",
   "Mode": "Default",
@@ -112,12 +112,12 @@
       "OriginalItemSpec": "wwwroot/app.css"
     },
     {
-      "Identity": "/Users/jonanleu/repos/Taco/ShopSite/ShopSite/wwwroot/images/RiosLogo.jpg",
+      "Identity": "/Users/jonanleu/repos/Taco/ShopSite/ShopSite/wwwroot/images/logo.jpeg",
       "SourceId": "ShopSite",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/jonanleu/repos/Taco/ShopSite/ShopSite/wwwroot/",
       "BasePath": "_content/ShopSite",
-      "RelativePath": "images/RiosLogo.jpg",
+      "RelativePath": "images/logo.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -128,7 +128,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/RiosLogo.jpg"
+      "OriginalItemSpec": "wwwroot/images/logo.jpeg"
     }
   ]
 }
