@@ -37,6 +37,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Sb3V0ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/jonanleu/repos/Taco/ShopSite/ShopSite/Components/Shared/ContactFooter.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9TaGFyZWQvQ29udGFjdEZvb3Rlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jonanleu/repos/Taco/ShopSite/ShopSite/Components/Shared/Navbar.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9TaGFyZWQvTmF2YmFyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/jonanleu/repos/Taco/ShopSite/ShopSite/Components/Shared/NavDropdownLink.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9TaGFyZWQvTmF2RHJvcGRvd25MaW5rLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 

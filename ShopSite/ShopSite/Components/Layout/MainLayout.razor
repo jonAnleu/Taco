@@ -1,5 +1,4 @@
-﻿@using ShopSite.Components.Shared
-@inherits LayoutComponentBase
+﻿@inherits LayoutComponentBase
 
 <MudThemeProvider IsDarkMode="true"/>
 <MudPopoverProvider/>
@@ -7,18 +6,10 @@
 <MudSnackbarProvider/>
 
 <MudLayout>
-    <MudStack Class="px-8 py-2" Row="true" AlignItems="AlignItems.Center" Justify="Justify.SpaceBetween" Style="background: #f8ef01;">
-        <MudImage Src="images/logo.jpeg" Height="108" Width="240"/>
-        <MudStack Row="true">
-            <NavDropdownLink Label="LOCATIONS"/>
-            <NavDropdownLink Label="MENU"/>
-            <NavDropdownLink Label="ABOUT"/>
-            <NavDropdownLink Label="CATERING"/>
-            <NavDropdownLink Label="ORDER ONLINE"/>
-        </MudStack>
-    </MudStack>
+    <Navbar/>
     <MudMainContent>
         @Body
     </MudMainContent>
+    <ContactFooter/>
 </MudLayout>
 
