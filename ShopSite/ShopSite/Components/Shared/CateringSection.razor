@@ -1,0 +1,52 @@
+<style>
+    .parallax-background {
+        background-image: url('images/catering-photo.jpg'); 
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 500px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 4rem 2rem;
+    }
+    
+    .parallax-background::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.3); 
+        z-index: 0;
+    }
+    
+    .parallax-content {
+        position: relative;
+        z-index: 1;
+    }
+</style>
+
+<div class="parallax-background">
+    <div class="parallax-content">
+        <MudStack AlignItems="AlignItems.Center" Spacing="4">
+            <MudText Align="Align.Center" Typo="Typo.h2" Style="font-weight: 900; color: white; letter-spacing: .1rem;">CATERING</MudText>
+            <MudText Align="Align.Center" Typo="Typo.h6" Style="font-weight: 900; color: white; letter-spacing: .1rem;">
+                BRING RIOS TO YOU, WITH OUR AMAZING SELECTION OF CATERING OPTIONS!
+            </MudText>
+            <MudButton Class="border-solid border mud-border-dark" 
+                       Color="Color.Error" 
+                       Variant="Variant.Filled"
+                       Size="Size.Large">
+                INQUIRE NOW
+            </MudButton>
+        </MudStack>
+    </div>
+</div>
+
+@code {
+    
+}

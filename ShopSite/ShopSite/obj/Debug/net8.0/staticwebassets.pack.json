@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets/images/logo.jpeg"
     },
     {
+      "Id": "/Users/jonanleu/repos/Taco/ShopSite/ShopSite/wwwroot/images/mc-rios.jpeg",
+      "PackagePath": "staticwebassets/images/mc-rios.jpeg"
+    },
+    {
+      "Id": "/Users/jonanleu/repos/Taco/ShopSite/ShopSite/wwwroot/images/nb-rios.jpeg",
+      "PackagePath": "staticwebassets/images/nb-rios.jpeg"
+    },
+    {
       "Id": "/Users/jonanleu/repos/Taco/ShopSite/ShopSite/wwwroot/images/taquero-logo.jpg",
       "PackagePath": "staticwebassets/images/taquero-logo.jpg"
     },
