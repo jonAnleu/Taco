@@ -1,61 +1,57 @@
-<MudCarousel Class=" rounded z-10 text-white"
+@* Add this to enable null checks - prevents future bugs *@
+@* If this file is .razor, enable in _Imports.razor instead: @nullable enable *@
+
+<MudCarousel Class="rounded z-10 text-white" 
              ItemsSource="@_carouselCards" 
-             @bind-SelectedIndex="SelectedIndex"
+             @bind-SelectedIndex="_selectedIndex"  @* ← Fixed: use private field for binding *@
              Style="height:320px;" 
              ShowArrows="true" 
-             ShowBullets="true" EnableSwipeGesture="true" AutoCycle="true">
+             ShowBullets="true" 
+             EnableSwipeGesture="true" 
+             AutoCycle="true">
+    
     <ItemTemplate>
         <MudStack Justify="Justify.Center" Style="height: 100%; position: relative;">
             <MudOverlay Visible="true" Absolute="true" DarkBackground="true"/>
-            <MudImage Src=@context.Image Class="absolute z-0" Fluid="true"/>
-            <MudStack Class="z-20 ml-20" AlignItems="AlignItems.Start">
-                <MudText Typo="Typo.h4"><b>@context.Title</b></MudText>
-                <MudText Typo="Typo.h6">@context.SubTitle</MudText>
-                <MudButton Href="/Assets" Variant="Variant.Filled" Color="Color.Error"><b>@context.Button</b>
-                </MudButton>
-            </MudStack>
+            <MudImage Src="@context.Image" Class="absolute z-0" Fluid="true"/>
         </MudStack>
     </ItemTemplate>
-    <BulletTemplate Context="selected">
-        <MudStack Row="true" class="mud-button-root mud-icon-button  mud-ripple-icon mx-n1">
-            <MudIcon class="@((selected ? "text-white" : "bg-gray-500"))" Icon="@Icons.Material.Filled.Circle"
-                     Size="Size.Small"/>
-        </MudStack>
-    </BulletTemplate>
-    <PreviousButtonTemplate>
-        <div
-            Class="rounded ml-4 mud-button-root mud-icon-button mud-icon-button-color-inherit mud-ripple mud-ripple-icon">
-            <span class="mud-icon-button-label">
-                <MudIcon Icon="@Icons.Material.Filled.ArrowBackIos" Size="Size.Small"/>
-            </span>
-        </div>
-    </PreviousButtonTemplate>
-    <NextButtonTemplate>
-        <div
-            Class="rounded mr-4 mud-button-root mud-icon-button mud-icon-button-color-inherit mud-ripple mud-ripple-icon">
-            <span class="mud-icon-button-label">
-                <MudIcon Icon="@Icons.Material.Filled.ArrowForwardIos" Size="Size.Small"/>
-            </span>
-        </div>
-    </NextButtonTemplate>
+    
+    @* REMOVED: BulletTemplate - MudBlazor's default bullets are fine *@
+    @* REMOVED: PreviousButtonTemplate - default arrows work unless you REALLY need custom *@
+    @* REMOVED: NextButtonTemplate - same as above *@
+    
 </MudCarousel>
 
 @code {
-    private int SelectedIndex { get; set; }
-
-    private List<CarouselCardModel> _carouselCards = new()
+    private int _selectedIndex = 0; @* ← Initialize to avoid weird binding issues *@
+    
+    @* Make this readonly - nobody should modify it after initialization *@
+    private readonly List<CarouselCardModel> _carouselCards = new()
     {
-        new CarouselCardModel { Image = "images/logo-nb-sunny-rios.jpg", Title = "MCCS Marketing Hub", SubTitle = "Enabling markets to deliver consistent content", Button = "be inspired" },
-        new CarouselCardModel { Image = "images/food-shot-outside.jpg", Title = "FY2025 Spring Launch", SubTitle = "Fresh tones to inspire your Spring campaign content", Button = "see assets" },
-        new CarouselCardModel { Image = "images/horchata-cinnamon.jpg", Title = "FY2025 Summer Campaign", SubTitle = "Crisp content to inspire your Summer campaigns", Button = "see assets" }
+        new() 
+        { 
+            Image = "images/food-shot-outside.jpg", 
+        },
+        @* PRO TIP: Put images in wwwroot folder or use a CDN *@
+        new() 
+        { 
+            Image = "images/horchata-cinnamon.jpg", 
+        },
+        new() 
+        { 
+            Image = "images/logo-nb-sunny-rios.jpg", 
+        }
     };
 
+    @* Move this to a separate file if you reuse it *@
     public class CarouselCardModel
     {
         public string? Image { get; set; }
-        public string? Title { get; set; }
-        public string? SubTitle { get; set; }
-        public string? Button { get; set; }
+        
+        @* BONUS: Add validation if you want *@
+        // public bool IsValid => !string.IsNullOrWhiteSpace(Image) && 
+        //                       !string.IsNullOrWhiteSpace(Title);
     }
-
 }
+
