@@ -9,6 +9,22 @@
       "PackagePath": "staticwebassets/app.css"
     },
     {
+      "Id": "/Users/jonanleu/repos/Taco/ShopSite/ShopSite/wwwroot/images/catering-photo.jpg",
+      "PackagePath": "staticwebassets/images/catering-photo.jpg"
+    },
+    {
+      "Id": "/Users/jonanleu/repos/Taco/ShopSite/ShopSite/wwwroot/images/food-shot-outside.jpg",
+      "PackagePath": "staticwebassets/images/food-shot-outside.jpg"
+    },
+    {
+      "Id": "/Users/jonanleu/repos/Taco/ShopSite/ShopSite/wwwroot/images/horchata-cinnamon.jpg",
+      "PackagePath": "staticwebassets/images/horchata-cinnamon.jpg"
+    },
+    {
+      "Id": "/Users/jonanleu/repos/Taco/ShopSite/ShopSite/wwwroot/images/logo-nb-sunny-rios.jpg",
+      "PackagePath": "staticwebassets/images/logo-nb-sunny-rios.jpg"
+    },
+    {
       "Id": "/Users/jonanleu/repos/Taco/ShopSite/ShopSite/wwwroot/images/logo.jpeg",
       "PackagePath": "staticwebassets/images/logo.jpeg"
     },
