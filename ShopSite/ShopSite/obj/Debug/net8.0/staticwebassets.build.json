@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PYHrADZOO0/WHfgtEuU0oIQ9IViPWvNxV35U6FNom7o=",
+  "Hash": "0vBlPmtXgE02Wz9mD5gBOMZ3qtKJF88LFE+ue9t13FY=",
   "Source": "ShopSite",
   "BasePath": "_content/ShopSite",
   "Mode": "Default",
@@ -112,6 +112,25 @@
       "OriginalItemSpec": "wwwroot/app.css"
     },
     {
+      "Identity": "/Users/jonanleu/repos/Taco/ShopSite/ShopSite/wwwroot/images/avocado-slices-saucy.jpg",
+      "SourceId": "ShopSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/jonanleu/repos/Taco/ShopSite/ShopSite/wwwroot/",
+      "BasePath": "_content/ShopSite",
+      "RelativePath": "images/avocado-slices-saucy.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/avocado-slices-saucy.jpg"
+    },
+    {
       "Identity": "/Users/jonanleu/repos/Taco/ShopSite/ShopSite/wwwroot/images/catering-photo.jpg",
       "SourceId": "ShopSite",
       "SourceType": "Discovered",
@@ -129,6 +148,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/catering-photo.jpg"
+    },
+    {
+      "Identity": "/Users/jonanleu/repos/Taco/ShopSite/ShopSite/wwwroot/images/chips-and-salsa.jpg",
+      "SourceId": "ShopSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/jonanleu/repos/Taco/ShopSite/ShopSite/wwwroot/",
+      "BasePath": "_content/ShopSite",
+      "RelativePath": "images/chips-and-salsa.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/chips-and-salsa.jpg"
     },
     {
       "Identity": "/Users/jonanleu/repos/Taco/ShopSite/ShopSite/wwwroot/images/food-shot-outside.jpg",
@@ -150,12 +188,12 @@
       "OriginalItemSpec": "wwwroot/images/food-shot-outside.jpg"
     },
     {
-      "Identity": "/Users/jonanleu/repos/Taco/ShopSite/ShopSite/wwwroot/images/horchata-cinnamon.jpg",
+      "Identity": "/Users/jonanleu/repos/Taco/ShopSite/ShopSite/wwwroot/images/fresh-taco.jpg",
       "SourceId": "ShopSite",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/jonanleu/repos/Taco/ShopSite/ShopSite/wwwroot/",
       "BasePath": "_content/ShopSite",
-      "RelativePath": "images/horchata-cinnamon.jpg",
+      "RelativePath": "images/fresh-taco.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -166,7 +204,26 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/horchata-cinnamon.jpg"
+      "OriginalItemSpec": "wwwroot/images/fresh-taco.jpg"
+    },
+    {
+      "Identity": "/Users/jonanleu/repos/Taco/ShopSite/ShopSite/wwwroot/images/grill-cooks.jpg",
+      "SourceId": "ShopSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/jonanleu/repos/Taco/ShopSite/ShopSite/wwwroot/",
+      "BasePath": "_content/ShopSite",
+      "RelativePath": "images/grill-cooks.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/grill-cooks.jpg"
     },
     {
       "Identity": "/Users/jonanleu/repos/Taco/ShopSite/ShopSite/wwwroot/images/logo-nb-sunny-rios.jpg",
@@ -243,6 +300,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/nb-rios.jpeg"
+    },
+    {
+      "Identity": "/Users/jonanleu/repos/Taco/ShopSite/ShopSite/wwwroot/images/take-out-food-shot.jpg",
+      "SourceId": "ShopSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/jonanleu/repos/Taco/ShopSite/ShopSite/wwwroot/",
+      "BasePath": "_content/ShopSite",
+      "RelativePath": "images/take-out-food-shot.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/take-out-food-shot.jpg"
     },
     {
       "Identity": "/Users/jonanleu/repos/Taco/ShopSite/ShopSite/wwwroot/images/taquero-logo.jpg",

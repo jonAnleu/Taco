@@ -9,16 +9,28 @@
       "PackagePath": "staticwebassets/app.css"
     },
     {
+      "Id": "/Users/jonanleu/repos/Taco/ShopSite/ShopSite/wwwroot/images/avocado-slices-saucy.jpg",
+      "PackagePath": "staticwebassets/images/avocado-slices-saucy.jpg"
+    },
+    {
       "Id": "/Users/jonanleu/repos/Taco/ShopSite/ShopSite/wwwroot/images/catering-photo.jpg",
       "PackagePath": "staticwebassets/images/catering-photo.jpg"
+    },
+    {
+      "Id": "/Users/jonanleu/repos/Taco/ShopSite/ShopSite/wwwroot/images/chips-and-salsa.jpg",
+      "PackagePath": "staticwebassets/images/chips-and-salsa.jpg"
     },
     {
       "Id": "/Users/jonanleu/repos/Taco/ShopSite/ShopSite/wwwroot/images/food-shot-outside.jpg",
       "PackagePath": "staticwebassets/images/food-shot-outside.jpg"
     },
     {
-      "Id": "/Users/jonanleu/repos/Taco/ShopSite/ShopSite/wwwroot/images/horchata-cinnamon.jpg",
-      "PackagePath": "staticwebassets/images/horchata-cinnamon.jpg"
+      "Id": "/Users/jonanleu/repos/Taco/ShopSite/ShopSite/wwwroot/images/fresh-taco.jpg",
+      "PackagePath": "staticwebassets/images/fresh-taco.jpg"
+    },
+    {
+      "Id": "/Users/jonanleu/repos/Taco/ShopSite/ShopSite/wwwroot/images/grill-cooks.jpg",
+      "PackagePath": "staticwebassets/images/grill-cooks.jpg"
     },
     {
       "Id": "/Users/jonanleu/repos/Taco/ShopSite/ShopSite/wwwroot/images/logo-nb-sunny-rios.jpg",
@@ -35,6 +47,10 @@
     {
       "Id": "/Users/jonanleu/repos/Taco/ShopSite/ShopSite/wwwroot/images/nb-rios.jpeg",
       "PackagePath": "staticwebassets/images/nb-rios.jpeg"
+    },
+    {
+      "Id": "/Users/jonanleu/repos/Taco/ShopSite/ShopSite/wwwroot/images/take-out-food-shot.jpg",
+      "PackagePath": "staticwebassets/images/take-out-food-shot.jpg"
     },
     {
       "Id": "/Users/jonanleu/repos/Taco/ShopSite/ShopSite/wwwroot/images/taquero-logo.jpg",
