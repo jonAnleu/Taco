@@ -3,7 +3,7 @@
 <MudCarousel Class="rounded z-10 text-white"
              ItemsSource="@_carouselCards"
              SelectedIndex="_selectedIndex"
-             Style="height: 60vh; width: 100%;"
+             Style="height: 580px; width: 100%;"
              ShowArrows="true"
              ShowBullets="true"
              EnableSwipeGesture="true"
@@ -11,8 +11,8 @@
 
     <ItemTemplate>
         <MudImage Src="@context.Image"
-                  ObjectFit="ObjectFit.Contain"
-                  Style="width: 100%; height: 100%; min-width: 100%; min-height: 100%;"
+                  ObjectFit="ObjectFit.Cover"
+                  Style="width: 100%; height: 100%;"
                   Alt="Carousel image"/>
     </ItemTemplate>
 </MudCarousel>
@@ -23,8 +23,9 @@
     private readonly IReadOnlyList<CarouselCardModel> _carouselCards =
     [
         new() { Image = "images/food-shot-outside.jpg" },
-        new() { Image = "images/horchata-cinnamon.jpg" },
-        new() { Image = "images/logo-nb-sunny-rios.jpg" }
+        new() { Image = "images/chips-and-salsa.jpg" },
+        new() { Image = "images/logo-nb-sunny-rios.jpg" },
+
     ];
 
     public class CarouselCardModel
