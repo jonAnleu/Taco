@@ -1,57 +1,36 @@
-@* Add this to enable null checks - prevents future bugs *@
-@* If this file is .razor, enable in _Imports.razor instead: @nullable enable *@
+@rendermode InteractiveServer
 
-<MudCarousel Class="rounded z-10 text-white" 
-             ItemsSource="@_carouselCards" 
-             @bind-SelectedIndex="_selectedIndex"  @* ← Fixed: use private field for binding *@
-             Style="height:320px;" 
-             ShowArrows="true" 
-             ShowBullets="true" 
-             EnableSwipeGesture="true" 
+<MudCarousel Class="rounded z-10 text-white"
+             ItemsSource="@_carouselCards"
+             SelectedIndex="_selectedIndex"
+             Style="height: 60vh; width: 100%;"
+             ShowArrows="true"
+             ShowBullets="true"
+             EnableSwipeGesture="true"
              AutoCycle="true">
-    
+
     <ItemTemplate>
-        <MudStack Justify="Justify.Center" Style="height: 100%; position: relative;">
-            <MudOverlay Visible="true" Absolute="true" DarkBackground="true"/>
-            <MudImage Src="@context.Image" Class="absolute z-0" Fluid="true"/>
-        </MudStack>
+        <MudImage Src="@context.Image"
+                  ObjectFit="ObjectFit.Contain"
+                  Style="width: 100%; height: 100%; min-width: 100%; min-height: 100%;"
+                  Alt="Carousel image"/>
     </ItemTemplate>
-    
-    @* REMOVED: BulletTemplate - MudBlazor's default bullets are fine *@
-    @* REMOVED: PreviousButtonTemplate - default arrows work unless you REALLY need custom *@
-    @* REMOVED: NextButtonTemplate - same as above *@
-    
 </MudCarousel>
 
 @code {
-    private int _selectedIndex = 0; @* ← Initialize to avoid weird binding issues *@
-    
-    @* Make this readonly - nobody should modify it after initialization *@
-    private readonly List<CarouselCardModel> _carouselCards = new()
-    {
-        new() 
-        { 
-            Image = "images/food-shot-outside.jpg", 
-        },
-        @* PRO TIP: Put images in wwwroot folder or use a CDN *@
-        new() 
-        { 
-            Image = "images/horchata-cinnamon.jpg", 
-        },
-        new() 
-        { 
-            Image = "images/logo-nb-sunny-rios.jpg", 
-        }
-    };
+    private int _selectedIndex = 0;
 
-    @* Move this to a separate file if you reuse it *@
+    private readonly IReadOnlyList<CarouselCardModel> _carouselCards =
+    [
+        new() { Image = "images/food-shot-outside.jpg" },
+        new() { Image = "images/horchata-cinnamon.jpg" },
+        new() { Image = "images/logo-nb-sunny-rios.jpg" }
+    ];
+
     public class CarouselCardModel
     {
-        public string? Image { get; set; }
-        
-        @* BONUS: Add validation if you want *@
-        // public bool IsValid => !string.IsNullOrWhiteSpace(Image) && 
-        //                       !string.IsNullOrWhiteSpace(Title);
+        public required string Image { get; init; } // C# 11+
     }
+
 }
 
